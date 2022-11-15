@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1668532843894" clover="3.2.0">
-  <project timestamp="1668532843895" name="All files">
+<coverage generated="1668532974158" clover="3.2.0">
+  <project timestamp="1668532974158" name="All files">
     <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="24" coveredelements="24" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
     <file name="app.js" path="C:\Users\disco\Desktop\jest-test\app.js">
       <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>

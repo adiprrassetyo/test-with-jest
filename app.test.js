@@ -21,12 +21,6 @@ describe("Test example", () => {
         return done();
       });
   });
-  // More things come here
-});
-
-// Create a user
-describe("Test example", () => {
-  // Hidden for simplicity
   test("POST /send", (done) => {
     request(app)
       .post("/send")
@@ -49,12 +43,6 @@ describe("Test example", () => {
         return done();
       });
   });
-  // More things come here
-});
-
-// Update a user
-describe("Test example", () => {
-  // Hidden for simplicity
   test("PUT /update/:id", (done) => {
     request(app)
       .put(`/update/${elementId}`)
@@ -77,12 +65,6 @@ describe("Test example", () => {
         return done();
       });
   });
-  // More things come here
-});
-
-// Delete a user
-describe("Test example", () => {
-  // Hidden for simplicity
   test("DELETE /destroy/:id", (done) => {
     request(app)
       .delete(`/destroy/${elementId}`)
@@ -98,6 +80,6 @@ describe("Test example", () => {
         if (err) return done(err);
         return done();
       });
-  });
+  })
   // More things come here
 });
